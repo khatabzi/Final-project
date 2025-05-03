@@ -17,8 +17,8 @@ public class SignUp extends BaseSteps {
     public void ValidSignUp() throws InterruptedException {
         signUpPage=homePage.ClickSignUpButton();
         Thread.sleep(1000);
-        signUpPage.InsertUserName("mahmoudz");
-        signUpPage.InsertPassword("561561");
+        signUpPage.InsertUserName("mahmoudzz");
+        signUpPage.InsertPassword("5615611");
         alertsPages =signUpPage.ClickOnSignupBlueButton();
         Thread.sleep(1000);
         alertsPages.AcceptAlert();

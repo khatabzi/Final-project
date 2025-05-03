@@ -26,8 +26,9 @@ public class BaseSteps {
         driver.get("https://www.demoblaze.com/");
     }
 
-    //@AfterClass
-    //public void close() {
-        //driver.quit();  // Close the browser after tests
-    //}
+    @AfterClass
+    public void close() {
+        driver.quit();  // Close the browser after tests
+    }
+
 }
